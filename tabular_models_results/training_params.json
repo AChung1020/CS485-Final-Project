@@ -1,0 +1,38 @@
+{
+    "batch_size": 64,
+    "epochs": 100,
+    "learning_rate": 0.001,
+    "early_stopping_patience": 10,
+    "model_configurations": {
+        "TabR": {
+            "hidden_size": 256,
+            "num_hidden": 3,
+            "dropout": 0.1
+        },
+        "FTTransformer": {
+            "d_model": 256,
+            "nhead": 8,
+            "num_layers": 3,
+            "dropout": 0.1
+        },
+        "SAINT": {
+            "d_model": 128,
+            "nhead": 8,
+            "num_layers": 3,
+            "dropout": 0.1
+        },
+        "TabNet": {
+            "n_d": 64,
+            "n_steps": 3,
+            "dropout": 0.1
+        }
+    },
+    "optimizer": "Adam",
+    "scheduler": "ReduceLROnPlateau",
+    "scheduler_params": {
+        "mode": "max",
+        "patience": 5,
+        "factor": 0.5
+    },
+    "loss_function": "BCELoss"
+}

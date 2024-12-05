@@ -1,0 +1,26 @@
+=== Model Performance Summary ===
+
+
+TabR:
+Best Test Accuracy: 90.96%
+Final Train Accuracy: 91.46%
+Final Test Accuracy: 90.78%
+----------------------------------------
+
+FTTransformer:
+Best Test Accuracy: 90.22%
+Final Train Accuracy: 91.00%
+Final Test Accuracy: 88.72%
+----------------------------------------
+
+SAINT:
+Best Test Accuracy: 89.85%
+Final Train Accuracy: 90.68%
+Final Test Accuracy: 89.40%
+----------------------------------------
+
+TabNet:
+Best Test Accuracy: 89.89%
+Final Train Accuracy: 90.52%
+Final Test Accuracy: 89.33%
+----------------------------------------

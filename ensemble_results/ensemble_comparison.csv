@@ -1,0 +1,6 @@
+,Hard Voting,Weighted Voting,Mean Probability,Weighted Probability
+Balanced Accuracy,90.39%,90.39%,91.00%,90.64%
+Sensitivity,84.12%,84.12%,85.56%,84.84%
+Specificity,96.66%,96.66%,96.44%,96.44%
+Precision,93.95%,93.95%,93.68%,93.63%
+F1 Score,88.76%,88.76%,89.43%,89.02%
